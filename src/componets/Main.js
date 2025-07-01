@@ -1,5 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import PowerButton from '../subComponents/PowerButton'
+import LogoComponent from '../subComponents/LogoComponent'
+import SocialIcons from '../subComponents/SocialIcons'
+import { NavLink } from 'react-router-dom'
+
 
 const MainContainer = styled.div`
   background: ${props => props.theme.body}; 
@@ -17,12 +22,50 @@ const MainContainer = styled.div`
 const Container = styled.div`
   padding: 2rem;
 `
+const Contact = styled(NavLink)`
+  color: ${props => props.theme.text};
+  position: absolute;
+  top: 2rem;
+  right: calc(1rem + 2vw);
+  text-decoration: none;
+  z-index: 1;
+`
+const Blog = styled(NavLink)`
+  color: ${props => props.theme.text};
+  position: absolute;
+  top: 50%;
+  right: calc(1rem + 2vw);
+  transform: rotate(90deg) translate(-50%, -50%);
+  text-decoration: none;
+  z-index: 1;
+`
+const Work = styled(NavLink)`
+  color: ${props => props.theme.text};
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  transform: translate(-50%, -50%) rotate(-90deg) ;
+  text-decoration: none;
+  z-index: 1;
+`
+
 
 const Main = () => {
   return (
     <MainContainer>
       <Container>
-        Main Component Page
+        <PowerButton />
+        <LogoComponent />
+        <SocialIcons />
+        <Contact to='//mailto:mhmdshiddiq17@gmail.com'  target="_blank">
+          <h3>Say hi...</h3>
+        </Contact>
+        <Blog to='/blog'  target="_blank">
+          <h3>Blog</h3>
+        </Blog>
+        <Work to='/work'  target="_blank">
+          <h3>Work</h3>
+        </Work>
       </Container>
     </MainContainer>
   )
