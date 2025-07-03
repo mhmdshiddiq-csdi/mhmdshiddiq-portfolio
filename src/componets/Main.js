@@ -5,6 +5,7 @@ import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons from '../subComponents/SocialIcons'
 import { NavLink } from 'react-router-dom'
 import { YinYang } from './AllSvg'
+import Intro from './Intro'
 
 
 const MainContainer = styled.div`
@@ -41,7 +42,7 @@ const Blog = styled(NavLink)`
   z-index: 1;
 `
 const Work = styled(NavLink)`
-  color: ${props => props.theme.text};
+  color: ${props => props.click ? props.theme.body : props.theme.text};
   position: absolute;
   top: 50%;
   left: calc(1rem + 2vw);
@@ -60,7 +61,7 @@ const BottomBar = styled.div`
   justify-content: space-evenly;
 `
 const About = styled(NavLink)`
-  color: ${props => props.theme.text};
+  color: ${props => props.click ? props.theme.body : props.theme.text};
   text-decoration: none;
   z-index: 1;
 `
@@ -109,11 +110,11 @@ const DarkDiv = styled.div`
   top: 0;
   bottom: 0;
   right: 50%;
-  width: 100%;
-  height: 100%;
+  width: ${props => props.click ? "50%" : "0%"};
+  height: ${props => props.click ? "100%" : "0%"};
   z-index: 1;
   background-color: #000;
-
+  transition: height 0.5s ease, width 1s ease 0.5s;
 
 `
 
@@ -129,8 +130,8 @@ const Main = () => {
       <Container>
         <DarkDiv click={click}/>
         <PowerButton />
-        <LogoComponent />
-        <SocialIcons />
+        <LogoComponent color={click ? "dark" : "light"}/>
+        <SocialIcons theme={click ? "dark" : "light"} />
         <Center click={click}>
           <YinYang onClick={() => handleClick()}  width={click ? 120: 200} height={click ? 120: 200} fill="currentColor" />
           <span>click here</span> 
@@ -143,17 +144,18 @@ const Main = () => {
         <Blog to='/blog'  target="_blank">
           <h2>Blog</h2>
         </Blog>
-        <Work to='/work'  target="_blank">
+        <Work to='/work'  target="_blank" click={click}>
           <h2>Work</h2>
         </Work>
         <BottomBar>
-          <About to="/about">
+          <About to="/about" click={click}>
             <h2>About.</h2>
           </About>
           <Skills to="/skills">
             <h2>My Skills</h2>
           </Skills>
         </BottomBar>
+        {click ? <Intro click={click}/> : null}
       </Container>
     </MainContainer>
   )
