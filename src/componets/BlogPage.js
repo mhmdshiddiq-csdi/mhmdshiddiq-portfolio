@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import img from '../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg'
 import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons from '../subComponents/SocialIcons'
 import PowerButton from '../subComponents/PowerButton'
-
+import BlogComponent from './BlogComponent'
+import {Blogs} from '../data/BlogData'
+import AnchorComponent from '../subComponents/Anchor'
 
 const MainContainer = styled.div`
   background: url(${img});
@@ -12,8 +14,6 @@ const MainContainer = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 100vw;
-  height: 100vh;
 `
 const Container = styled.div`
  background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
@@ -36,18 +36,25 @@ const Grid = styled.div`
 `
 
 const BlogPage = () => {
+  const [numbers, setNumbers] = useState(0);
+  useEffect(() => {
+    const num = (window.innerHeight - 70) / 30;
+    setNumbers(parseInt(num));
+  }, [])
   return (
     <MainContainer>
       <Container>
         <LogoComponent />
         <PowerButton />
+        <SocialIcons />
+        <AnchorComponent numbers={numbers}/>
         <Center>
           <Grid>
-            <h1>Blog</h1>
-            <h1>Blog</h1>
-            <h1>Blog</h1>
-            <h1>Blog</h1>
-            <h1>Blog</h1>
+            {Blogs.map(blog => {
+              return (
+                 <BlogComponent key={blog.id} blog={blog}/>
+              )
+            })}
           </Grid>
         </Center>
       </Container>
