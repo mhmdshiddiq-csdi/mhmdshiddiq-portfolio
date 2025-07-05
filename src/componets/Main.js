@@ -6,6 +6,7 @@ import SocialIcons from '../subComponents/SocialIcons'
 import { NavLink } from 'react-router-dom'
 import { YinYang } from './AllSvg'
 import Intro from './Intro'
+import { motion } from 'framer-motion'
 
 
 const MainContainer = styled.div`
@@ -139,20 +140,20 @@ const Main = () => {
 
 
         <Contact to='//mailto:mhmdshiddiq17@gmail.com'  target="_blank">
-          <h2>Say hi...</h2>
+          <motion.h2 whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>Say hi...</motion.h2>
         </Contact>
         <Blog to='/blog'  target="_blank">
-          <h2>Blog</h2>
+          <motion.h2  whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>Blog</motion.h2>
         </Blog>
         <Work to='/work'  target="_blank" click={click}>
-          <h2>Work</h2>
+          <motion.h2  whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>Work</motion.h2>
         </Work>
         <BottomBar>
           <About to="/about" click={click}>
-            <h2>About.</h2>
+            <motion.h2  whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>About.</motion.h2>
           </About>
           <Skills to="/skills">
-            <h2>My Skills</h2>
+            <motion.h2  whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>My Skills</motion.h2>
           </Skills>
         </BottomBar>
         {click ? <Intro click={click}/> : null}
