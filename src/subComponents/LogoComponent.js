@@ -14,7 +14,7 @@ const Logo = styled.h1`
 
 const LogoComponent = (props) => {
   return (
-    <Logo color={props.color}>
+    <Logo color={props.theme}>
       SHIDDIQ
     </Logo>
   )
