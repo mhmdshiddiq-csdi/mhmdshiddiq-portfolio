@@ -119,13 +119,13 @@ const MySkillsPage = () => {
             <strong>
               Skills
               </strong>
-              <p>HTML, CSS, JS, REACT, REDUX, SASS, BOOTSTRAP, TAILWIND</p>
+              <p>HTML, CSS, JS, TS, REACT, REDUX, Next JS, Laravel, Node JS, SEO Implementation</p>
           </Description>
           <Description>
             <strong>
               Tools 
               </strong>
-              <p>VSCode, Github, Codepen, etc.</p>
+              <p>VSCode, Github, Jira, etc.</p> 
           </Description>
         </Main>
         <BigTitle text="SKILLS" top="80%" right="30%" />
