@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { Facebook, Github, Linkedin, YouTube } from '../componets/AllSvg'
+import { Facebook, Github, Instagram, Linkedin} from '../componets/AllSvg'
 import styled from 'styled-components'
 import {DarkTheme} from '../componets/Themes'
 import { motion } from 'framer-motion'
@@ -58,8 +58,8 @@ const SocialIcons = (props) => {
         animate={{scale: [0,1,1.5,1]}}
         transition={{type: "spring", duration: 1, delay: 1.6}}
       >
-        <NavLink to="//github.com/mhmdshiddiq-csdi" style={{color: 'inherit'}} target='_blank'>
-          <YouTube width={25} height={25} fill={props.theme === 'dark' ? DarkTheme.text : DarkTheme.body}  />
+        <NavLink to="//instagram.com/shiddiq.w" style={{color: 'inherit'}} target='_blank'>
+          <Instagram width={25} height={25} fill={props.theme === 'dark' ? DarkTheme.text : DarkTheme.body}  />
         </NavLink>
       </motion.div>
       <Line initial={{height: 0}} animate={{height: '8rem'}} transition={{type: 'spring', duration: 1, delay: 0.8}} color={props.theme} />
