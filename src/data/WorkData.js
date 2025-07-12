@@ -1,59 +1,59 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Jual Beli Mobil SEVA",
+        description:"Bertindak sebagai Frontend Developer, melakukan revamp website dan bug fixing di website Jual Beli Mobil SEVA.",
+        tags:["nextjs","react","seo"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://seva.id/",
+        github:"https://github.com/mhmdshiddiq-csdi"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"Aplikasi Cuaca",
+        description:"Membuat Aplikasi cuaca real time menggunakan react js dan API Open Source OpenWeather API",
+        tags:["react","tailwindcss","api"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        demo:"https://aplikasi-cuaca-kappa.vercel.app/",
+        github:"https://github.com/mhmdshiddiq-csdi/aplikasi-cuaca.git"
         
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"Budget Tracker",
+        description:"Membuat aplikasi Budget Tracker menggunakan Next JS dan Tailwind CSS, serta menggunakan authentication clerk. (Untuk Projek Masih di Lokal)",
+        tags:["next js","tailwindcss","react-query"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"#",
+        github:"https://github.com/mhmdshiddiq-csdi/lacak-duit"
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"Honey Kissmow",
+        description:"Membuat website sistem informasi desa menggunakan Next JS dan Tailwind CSS. (Website sudah tidak aktif)",
+        tags:["next js","tailwindcss"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        demo:"#",
+        github:"https://github.com/mhmdshiddiq17/kknjogonalanuny"
        
     },{
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
+        name:"COCOBAROMA PKM PM UNY",
+        description:"Mmebuat website jual beli produk COCOBAROMA PKM PM UNY menggunakan Laravel dan boostrap. (Website sudah tidak aktif)",
+        tags:["Laravel"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        demo:"https://www.linkedin.com/posts/mhmdshiddiq_lifeafterbangkit-activity-7197036354189336576-ST5g?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADe0uSUBjckO_90H0FDxo8CSOKShob-cJko",
+        github:"https://github.com/mhmdshiddiq17"
         
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"Majalah Agro.in",
+        description:"Membuat website majalah Agro.in menggunakan React JS dan Tailwind CSS.",
+        tags:["react","react-router","tailwindcss"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        demo:"https://www.linkedin.com/posts/mhmdshiddiq_lifeafterbangkit-activity-7197036354189336576-ST5g?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADe0uSUBjckO_90H0FDxo8CSOKShob-cJko",
+        github:"https://github.com/mhmdshiddiq17/Agro.in"
         
     },
     

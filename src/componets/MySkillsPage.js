@@ -82,7 +82,7 @@ const MySkillsPage = () => {
             <Design width={40} height={40} /> Designer
           </Title>
           <Description>
-            I love to create design which speaks, Keep it clean, minimal and simple.
+            Saya senang menciptakan desain yang bisa “berbicara” — dengan gaya yang bersih, minimalis, dan sederhana
           </Description>
           <Description>
             <strong>
@@ -113,13 +113,13 @@ const MySkillsPage = () => {
             <Developer width={40} height={40} /> Frontend Developer
           </Title>
           <Description>
-          I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
+          Saya adalah seorang front-end developer dengan pengalaman selama 2 tahun. Saya menggunakan NextJS dan Laravel untuk membuat situs web yang responsif dan menarik.
           </Description>
           <Description>
             <strong>
               Skills
               </strong>
-              <p>HTML, CSS, JS, TS, REACT, REDUX, Next JS, Laravel, Node JS, SEO Implementation</p>
+              <p>Next JS, Laravel, Node JS</p>
           </Description>
           <Description>
             <strong>

@@ -37,7 +37,7 @@ const Main = styled.div`
   color: ${props => props.theme.text};
   padding: 2rem;
   width: 50vw;
-  height: 48vh;
+  height: 55vh;
   z-index: 3;
   line-height: 1.5;
   font-family: 'Ubuntu Mono',monospace;
@@ -64,11 +64,12 @@ const AboutPage = () => {
           <img src={astronaut} alt='spaceman' />
         </SpaceMan>
         <Main>
-        I'm a front-end developer located in Indonesia. I love to create simple yet beautiful websites with great user experience.
-        <br/><br/>
-        I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer. I love to write blogs and read books.
-        <br/><br/>
-        I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+        Saya adalah seorang pengembang front-end yang berdomisili di Yogyakarta,Indonesia. Saya senang membuat situs web yang sederhana namun indah dengan pengalaman pengguna yang luar biasa.
+        <br /><br />
+        Saya tertarik pada seluruh stack front-end, suka mencoba hal-hal baru dan membangun proyek-proyek yang keren. Saya adalah seorang freelancer independen. Saya juga senang menulis blog dan membaca buku.
+        <br /><br />
+        Saya percaya bahwa segala sesuatu adalah seni ketika kita melakukannya dengan kesadaran penuh. Anda bisa terhubung dengan saya melalui tautan media sosial.
+
         </Main>
         <BigTitle text="ABOUT" top="10%" left="5%" />
       </Box>

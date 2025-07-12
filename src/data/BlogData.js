@@ -1,69 +1,44 @@
 export const Blogs = [
     {
         id:1,
-        name:"Build Website with ReactJS, Styled-components and GSAP for Scrolling Animations",
-        tags:["react","gsap","styled-components"],
+        name:"5 Way Of Adaptability when i did Join Bangkit Academy program",
+        tags:["bangkit academy","cloud computing"],
         date:"13 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        imgSrc:"https://media.licdn.com/dms/image/v2/D5612AQEyCPBjku1R9Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1697373872434?e=1757548800&v=beta&t=nk3N_PSrNIaU8dyoX97x65u2OhKTuakRMqhSNiQJ4io",
+        link:"https://www.linkedin.com/pulse/5-way-adaptability-when-i-did-join-bangkit-academy-program-w/?trackingId=LFNHFa6np7GOLtIyMmh4Mg%3D%3D"
     },
     {
         id:2,
-        name:"How to create React Hamburger Menu using Styled-Components",
-        tags:["react","styled-components"],
-        date:"5 July, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625479747640%2F7KzwP9nmj.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/react-hamburger-menu"
+        name:"Memanfaatkan Limbah Kelapa Menjadi Produk Yang Bisa Dijual Dalam Menuju Desa Prima",
+        tags:["pkm","pkm pm"],
+        date:"27 Juni, 2024",
+        imgSrc:"https://media.licdn.com/dms/image/v2/D5612AQFlCPQk2I0zFQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1719423098563?e=1757548800&v=beta&t=bfyCWRQ_PEEgGqFRVrp7A4YmsnP_7oONbF10AQva2RI",
+        link:"https://www.linkedin.com/pulse/memanfaatkan-limbah-kelapa-menjadi-produk-yang-bisa-dijual-wicahyo-rs6zc/?trackingId=2O5Us2XTbASWMBqkZIHJTA%3D%3D"
     },
     {
         id:3,
-        name:"React Loading Screen: Try these 3 cool loading screens for your app",
-        tags:["react","react-lottie","styled-components"],
-        date:"6 July, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625552344293%2Fegwis0UIX.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/react-loading-screens"
+        name:"Pengolahan serabut kelapa menjadi cocopeat untuk media tanam oleh anggota PKK Kalurahan Tayuban",
+        tags:["pkm","pkm pm", "cocobaroma"],
+        date:"19 July, 2024",
+        imgSrc:"https://miro.medium.com/v2/resize:fit:1100/format:webp/1*lfQfveSb2Sx8Eu1UIE-8GQ.png",
+        link:"https://medium.com/@muhammadshiddiq.2021/pengolahan-serabut-kelapa-menjadi-cocopeat-untuk-media-tanam-oleh-anggota-pkk-kalurahan-tayuban-33db08a778a7"
     },
     {
         id:4,
-        name:"How to build a Fabulous Todo App using React, Redux and Framer-Motion",
-        tags:["react","redux","framer-motion"],
-        date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--r5oUDhhT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/036s7j5b73up7455rdth.png",
-        link:"https://dev.to/codebucks/build-redux-react-todo-list-app-with-animations-using-framer-motion-1mp1"
+        name:"Pengolahan Tempurung kelapa sebagai biochar yang bermanfaat untuk tanah oleh anggota PKK Kalurahan Tayuban",
+        tags:["pkm","pkm pm", "cocobaroma"],
+        date:"19 July, 2024",
+        imgSrc:"https://miro.medium.com/v2/resize:fit:1100/format:webp/1*fs3c23szIoSCl_FRZft3oA.png",
+        link:"https://medium.com/@muhammadshiddiq.2021/pengolahan-tempurung-kelapa-sebagai-biochar-yang-bermanfaat-untuk-tanah-oleh-anggota-pkk-kalurahan-073b71345822"
     },
     {
         id:5,
-        name:"What is Higher Order Component (HOC) in React JS?",
-        tags:["react","reactJS","web-development"],
-        date:"3 Feb, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625295480148%2FlyKj8bpHK.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/what-is-higher-order-component"
+        name:"Pembuatan Lilin Aroma Terapi dengan memanfaatkan bahan kelapa sebagai minyak (VCO) oleh Anggota PKK",
+        tags:["pkm","pkm pm", "cocobaroma"],
+        date:"19 July, 2024",
+        imgSrc:"https://miro.medium.com/v2/resize:fit:1100/format:webp/1*FMuMlhM6h70EfihldEc2KQ.jpeg",
+        link:"https://medium.com/@muhammadshiddiq.2021/pembuatan-lilin-aroma-terapi-dengan-memanfaatkan-bahan-kelapa-sebagai-minyak-vco-oleh-anggota-pkk-d709377f50ad"
     },
-    {
-        id:6,
-        name:"How to implement Pagination Component in React from scratch",
-        tags:["react","css"],
-        date:"5 Jan, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625240050668%2FGAya9b0XK.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/pagination-in-react"
 
-    },
-   
-    {
-        id:7,
-        name:"What is Redux ? Simply Explained!",
-        tags:["react","redux","javascript"],
-        date:"16 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--ZY1EK-Eo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bcz1u90oq3prr5fga3fs.png",
-        link:"https://dev.to/codebucks/what-is-redux-simply-explained-2ch7"
-    },
-    {
-        id:8,
-        name:"How to create Sidebar navigation menu in ReactJS with react router and framer-motion",
-        tags:["react","framer-motion","styled-components"],
-        date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-        link:"https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
-    },
   
 ] 
